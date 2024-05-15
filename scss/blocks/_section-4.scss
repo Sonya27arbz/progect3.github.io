@@ -1,0 +1,66 @@
+.section-4{
+    margin-top: 10.68vw;
+    .accordion__item {
+        margin-bottom: 0.417vw;
+        border-radius: 0.2vw;
+
+      }
+  
+      .accordion__header {
+        margin-left: 2vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0.625vw 0.833vw;
+        color: black;
+        font-size: 2.08vw;
+        font-weight: 500;
+        border-top-left-radius: 0.208vw;
+        border-top-right-radius: 0.208vw;
+        cursor: pointer;
+        transition: background-color 0.2s ease-out;
+      }
+      .header__1{
+        margin-left: 5vw;
+      }
+      .header__2{
+        margin-left: 5.5vw;
+      }
+      .header__3{
+        margin-left: 7.5vw;
+      }
+  
+      .accordion__header::after {
+        flex-shrink: 0;
+        width: 1.042vw;
+        height: 1.042vw;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-size: 1.042vw;
+        content: "";
+      }
+  
+      .accordion__item_show .accordion__header::after {
+        transform: rotate(-180deg);
+      }
+  
+  
+      .accordion__item_hidden .accordion__header {
+        border-bottom-right-radius: 0.208vw;
+        border-bottom-left-radius: 0.208vw;
+      }
+  
+      .accordion__body {
+        padding: 0.625vw 0.833vw;
+        overflow: hidden;
+        background: #fff;
+        border-bottom-right-radius: 0.208vw;
+        border-bottom-left-radius: 0.208vw;
+        font-size: 1.67vw;
+      }
+  
+      .accordion__item:not(.accordion__item_show) .accordion__body {
+        display: none;
+      }
+}

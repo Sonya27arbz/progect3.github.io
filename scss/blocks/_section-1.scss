@@ -1,0 +1,64 @@
+.section-1 {
+    margin-top: 20vw;
+
+    .container-filter {
+        margin-left: 10vw;
+
+        nav ul li {
+            margin-left: 4.48vw;
+            display: inline-block;
+            padding: 0.52vw, 2.08vw, 0.52vw, 0;
+            font-size: 0.83vw;
+        }
+
+        nav {
+            ul {
+                .text-filters {
+                    font-weight: 700;
+                    font-size: 1.37vw;
+                    margin-right: 3vw;
+                }
+            }
+        }
+
+        .block-cover {
+            margin-left: 15vw;
+            margin-right: 25vw;
+            margin-top: 2vw;
+
+            .box {
+                min-height: 21.88vw;
+                min-width: 14.32vw;
+                margin-left: 2.08vw;
+                margin-top: 2.45vw;
+                float: left;
+                img{
+                    height: 17.76vw;
+                    width: 14.32vw;
+                }
+                p {
+                    margin-top: 1vw;
+                    font-size: 0.83vw;
+                }
+            }
+        }
+
+        .hide {
+            display: none;
+            opacity: 1;
+            animation-name: a1;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes a1 {
+            to {
+                opacity: 0;
+                margin: 0;
+                min-height: 0;
+                min-width: 0;
+            }
+        }
+    }
+
+}

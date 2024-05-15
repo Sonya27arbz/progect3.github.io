@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="js/script.js" ></script>
+    <title>Ugmonk</title>
+</head>
+<body>
+    <header>
+        <div class="header__top header__top_active">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul class="menu__list" id="menu__list">
+                    <li class="menu__list-item">
+                        <a href="#catalog">Catalog</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#tab">Info</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#objects">Objects</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#accordion">More</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamb-filed" id="hamb">
+                <img src="img/burger.png" alt="">
+            </div>
+        </nav>
+        </div>
+        <div class="popup" id="popup">
+                    
+        </div>
+                    
+    </div>   
+        </div>
+       <div class="header__inner__slider">
+            <div class="slider">
+                <img src="img/slider0.png" alt="slider0">
+                <img src="img/slider1.png" alt="slider1">
+                <img src="img/slider2.png" alt="slider2">
+            </div>
+            <div class="prev-button">
+                <img src="img/стрелка-назад.png" alt="">
+            </div>
+            <div class="next-button">
+                <img src="img/стрелка-вперед.png" alt="">
+            </div>
+       </div>
+    </header>
+    <section class="section-1">
+        <div class="container-filter" id="catalog">
+            <nav>
+                <ul>
+                    <li class="text-filters">Filters:</li>
+                    <li data-f="all">All</li>
+                    <li data-f="pen" class="text-pen">Pen</li>
+                    <li data-f="tray" class="text-tray">Tray</li>
+                    <li data-f="analog" class="text-analog">Analog</li>
+                    <li data-f="clothes" class="text-clothes">Clothes</li>
+                </ul>
+            </nav>
+            <div class="block-cover">
+                <div class="col-auto box tray">
+                    <img src="img/box-1.png" alt="">
+                    <p>Pen Tray</p>
+                </div>
+                <div class="col-auto box analog">
+                    <img src="img/box-2.png" alt="">
+                    <p>The Analog Complete Set</p>
+                </div>
+                <div class="col-auto box tray">
+                    <img src="img/box-3.png" alt="">
+                    <p>Pen Tray</p>
+                </div>
+                <div class="col-auto box pen">
+                    <img src="img/box-4.png" alt="">
+                    <p>HMM Ballpoint Pen</p>
+                </div>
+                <div class="col-auto box clothes">
+                    <img src="img/box-5.png" alt="">
+                    <p>Mist</p>
+                </div>
+                <div class="col-auto box clothes">
+                    <img src="img/box-6.png" alt="">
+                    <p>Circular</p>
+                </div>
+                <div class="col-auto box analog">
+                    <img src="img/box-7.png" alt="">
+                    <p>Craighill Cal Bookend</p>
+                </div>
+                <div class="col-auto box analog">
+                    <img src="img/box-8.png" alt="">
+                    <p>Analog Starter Kit</p>
+                </div>
+                <div class="col-auto box analog">
+                    <img src="img/box-9.png" alt="">
+                    <p>Analog Cards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="info" id="tab">
+            <div class="info-header">
+                <div class="info-header-tab active">Pen Tray</div>
+                <div class="info-header-tab">Analog Starter</div>
+                <div class="info-header-tab">Craighill Cal </div>
+            </div>
+            <div class="info-tabcontent fade">
+                <div class="photo">
+                    <img src="img/tab-1.png" alt="Massage" />
+                </div>
+                <div class="description">
+                    <div class="description-title">Pen Tray</div>
+                    <div class="description-text">
+                        This stunning pen holder would make a perfect and unique gift for someone special such as your favorite business professional, educator, co-workers, and office employee.
+                    </div>
+                </div>             
+            </div> 
+            <div class="info-tabcontent fade">
+                <div class="photo">
+                    <img src="img/tab-2.png" alt="Massage" />
+                </div>
+                <div class="description">
+                    <div class="description-title">Analog Starter</div>
+                    <div class="description-text">
+                        Meet Analog, your new productivity companion, which helps you prioritize and focus on your most important tasks. The Analog Starter Kit includes a wood card.
+                    </div>
+                </div>
+            </div>
+            <div class="info-tabcontent fade">
+                <div class="photo">
+                    <img src="img/tab-3.png" alt="Massage" />
+                </div>
+                <div class="description">
+                    <div class="description-title">Craighill Cal </div>
+                    <div class="description-text">
+                        The Cal Bookend is comprised of two steel rods, which elegantly bend across each other and are locked into place by a single bolt.
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section-3" id="objects">
+        <div class="container-okno">
+            <img src="img/modal.png" alt="">
+            <div class="text">
+                <h1>Refillable Discbound Journals</h1>
+                <p>The Grovemade refillable slim notebook is designed to fit into the tight spaces on your desk. Intentionally coordinated with our Desk Collection, it lines up with your keyboard tray and desk pad to make your integrated workspace work even better.</p>
+                <button id="open-modal__btn">See more <img src="img/strelka.png" alt=""></button>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="modal__close">&times;</span>
+                    <h1>Refillable Discbound Journals</h1>
+                    <p>Heirloom quality you'll be holding onto for life 
+                        Our mission is to create simple, beautiful objects that combine form and function.</p>
+                    <img src="img/okno.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="section-4" id="accordion">
+        <div class="accordion" id="accordion-1" style="max-width: 30rem; margin: 1rem auto 2rem;">
+            <div class="accordion__item accordion__item_show">
+              <div class="accordion__header header__1">
+                CUSTOMIZABLE DESIGN
+              </div>
+              <div class="accordion__body">
+                【CUSTOMIZABLE DESIGN】Discbound notebook is an alternative to bulky 3 - or 6-ring binders with black plastic discs for easy addition, removal, and rearrangement of pages, providing unlimited DIY possibilities. Compared with the ordinary spiral journal, the discs saves space, does not affect the feel of use, easy to turn pages.
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__header header__2">
+                MULTI-FUNCTION
+              </div>
+              <div class="accordion__body">
+                【MULTI-FUNCTION 】 The 5 subject notebook can remove and rearrange pages, contains 6 separate pages, and can be used as a 5-subject or multi-subject spiral notebook. systematic inside notes , with subject, dates, places, and member sections, perfect for meetings, work, and study. Can replace the inner core, saving environmental protection.
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__header header__3">
+                GUARANTEE
+              </div>
+              <div class="accordion__body">
+                【GUARANTEE 】 The multi-subject design of the discbound notebook is perfect for note-taking, brainstorming, making lists, meetings, and class notes.if you have any questions, please contact us in time, we will give you a satisfactory answer. Let Yoment customizable spiral journal , accompany you every moment!
+              </div>
+            </div>
+          </div>
+        
+          
+    </section>
+    <footer class="footer">
+        <div class="conteiner__footer">
+            <div class="col_1">
+                <br><br>
+                <p class="one">Customer Service</p>
+                <p>Help / FAQ</p>
+                <p>Returns & Exchanges</p>
+            </div>
+            <div class="col_2">
+                <p>About</p>
+                <p>Our Story</p>
+                <p>Shop</p>
+            </div>
+            <div class="col_3">
+                <p>© Ugmonk 2024</p>
+                <p>All images and content may not be</p>
+                <p>used without permission</p>
+            </div>
+            <img src="img/footer.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>

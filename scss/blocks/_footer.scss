@@ -1,0 +1,38 @@
+.footer{
+    background-color: #F7F7F7;
+    width: 100vw;
+    height: 19.28vw; 
+    margin-top: 15.89vw;
+    .col_1{
+        margin-left: 7.29vw;
+        p{
+            font-size: 0.78vw;
+            color: #1A1A1A;
+            margin-top: 2vw;
+        }
+    }
+    .col_2{
+        margin-left: 26vw;
+        margin-top: -9vw;
+        p{
+            font-size: 0.78vw;
+            color: #1A1A1A;
+            margin-top: 2vw;
+        }
+    }
+    .col_3{
+        margin-left: 66vw;
+        margin-top: -5vw;
+        p{
+            font-size: 0.78vw;
+            color: #1A1A1A;
+            margin-top: 0.8vw;
+        }
+    }
+    img{
+        width: 2.86vw;
+        height: 4.58vw;
+        margin-left: 83vw;
+        margin-top: -4.5vw;
+    }
+}
